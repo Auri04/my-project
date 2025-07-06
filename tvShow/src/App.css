@@ -1,0 +1,80 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.conteiner-inputAndButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner-inputSearchbar{
+    display: flex;
+    justify-content: center;
+}
+
+.inputSearchbar{
+    background-color: #eeeeee;
+    border-radius: 30px;
+    border-color: transparent;
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.class-button{
+    background-color: #eeeeee;
+    border-radius: 30px;
+    border-color: transparent;
+    width: 80px;
+    height: 40px;
+    padding: 8px;
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+
+.inputSearchbar:hover, .class-button:hover{
+    border-color: #ff00aa;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+}
+
+.listOfShow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.show{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ff00aa8e;
+    transition: all 0.4s ease;
+    max-width: 220px ;
+}
+
+.show:hover{
+    box-shadow: 5px 8px 9px #444444;
+}
+
+.showTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.showImg{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.showImg img{
+    border-radius: 10px;
+}

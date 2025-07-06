@@ -1,0 +1,6 @@
+# Ignora tutte le node_modules nei sottoprogetti
+**/node_modules
+**/dist
+**/build
+**/.env
+.DS_Store
